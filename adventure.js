@@ -1,4 +1,4 @@
-
+// Image Slider of About page
 
 let currentSlide = 0;
 function move(a){
@@ -25,3 +25,25 @@ for (let y of slide){
 slide[num].style.display = "block"
 
 }
+
+// End of Image Slider of About Page
+
+// Nav Bar
+
+// var prevScrollpos = window.scrollY;
+// window.onscroll = function() {
+//   var currentScrollPos = window.scrollY;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementsByTagName("nav").style.top = "0";
+//   } else {
+//     document.getElementsByTagName("nav").style.top = "-50px";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
+
+// function scrolldown(){
+//     window.scrollBy(1800,1800);
+//     alert("ok")
+// }
+
+// scrolldown()

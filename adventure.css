@@ -112,29 +112,36 @@ footer{
     color: white;
     display: flex;
     align-items: center;
+    float: inline-start;
+    width: 100%;
 }
 
 .center-footer{
     display: flex;
     flex-direction: column;
     padding: 50px;
+    float: left;
 }
 .left-footer{
 padding: 50px;
+float: left;
 }
 .right-footer{
     padding-left: 100px;
+    float: left;
 }
 
 .center-footer a{
     text-decoration: none;
     color: white;
     padding: 10px;
+    float: left;
 }
 
 .footer-icon{
     padding: 10px;
     margin: 10px;
+    float: left;
 }
 
 /* About Page */
@@ -147,6 +154,7 @@ padding: 50px;
     top: 200px;
     left: 300px;
     border-radius: 20px;
+    margin-bottom: 200px;
 }
 .about-slide{
     position: absolute;
@@ -211,3 +219,53 @@ padding: 50px;
     margin-left: 40px;
 }
 
+.gallery-main{
+    margin-bottom: 0px;
+}
+
+/* Plan and Pricing */
+
+.plan{
+    border: 1px solid black;
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    float: left;
+}
+
+.plan-head{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.features{
+    border: 1px solid black;
+    margin: 10px;
+    width: 300px;
+    background-color: rgb(215, 215, 255);
+}
+
+/* Contact */
+.contact-form{
+    width: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.form-box{
+    margin: 5px;
+    
+}
